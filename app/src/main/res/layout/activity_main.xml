@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="20"
+                app:iss_delay="0"
+                app:iss_period="3000"
+                app:iss_placeholder="@color/purple_200" />
+
+            <TextView
+
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NOMBRE DE LA PELICULA:"
+                android:textStyle="bold"
+                android:textSize="50px">
+
+            </TextView>
+            <TextView
+
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El señor de los anillos"
+                android:textStyle="bold"
+                android:textSize="50px">
+
+            </TextView>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FECHA DE LANZAMIENTO"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="29 de julio de 1954"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="AUTORES PRINCIPALES"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="Sauron\nGaladriel\nGandalf\nAragorn\nFrodo Bolson"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="DESCRIPCION"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:text="Tres Anillos para los Reyes Elfos bajo el cielo.
+Siete para los Señores Enanos en casas de piedra.
+Nueve para los Hombres Mortales condenados a morir.
+Uno para el Señor Oscuro, sobre el trono oscuro"
+                android:textStyle="bold"
+                android:textSize="50px"
+                ></TextView>
+
+
+            <Button
+                android:id="@+id/btnSitio"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Sitio"
+                android:layout_gravity="center">
+
+            </Button>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>
